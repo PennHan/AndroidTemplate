@@ -15,15 +15,4 @@ import java.util.List;
 @Dao
 public interface PlaceDao {
 
-    @Insert(onConflict = OnConflictStrategy.REPLACE)
-    void insert(Option option);
-
-    @Insert(onConflict = OnConflictStrategy.REPLACE)
-    void insertAll(List<Option> options);
-
-    @Query("SELECT * FROM options")
-    List<Option> loadAll();
-
-    @Query("SELECT * FROM options WHERE question_id = :questionId")
-    List<Option> loadAllByQuestionId(Long questionId);
 }

@@ -1,1 +1,1 @@
-include ':app_component', ':common', ':app_wanandroid'
+include ':app_component', ':common', ':app_wanandroid', ':app_main'

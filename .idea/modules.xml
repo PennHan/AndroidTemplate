@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AndroidTemplate.iml" filepath="$PROJECT_DIR$/AndroidTemplate.iml" />
       <module fileurl="file://$PROJECT_DIR$/app_component/app_component.iml" filepath="$PROJECT_DIR$/app_component/app_component.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app_main/app_main.iml" filepath="$PROJECT_DIR$/app_main/app_main.iml" />
       <module fileurl="file://$PROJECT_DIR$/app_wanandroid/app_wanandroid.iml" filepath="$PROJECT_DIR$/app_wanandroid/app_wanandroid.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
     </modules>
