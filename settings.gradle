@@ -1,1 +1,1 @@
-include ':app_component', ':common', ':app_wanandroid', ':app_main'
+include ':app_component', ':common', ':app_wanandroid', ':app_main', ':frameworklib'

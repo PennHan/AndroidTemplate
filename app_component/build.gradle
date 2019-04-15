@@ -46,17 +46,18 @@ dependencies {
     // androidx
     implementation rootProject.ext.dependencies['androidx-appcompat']
     implementation rootProject.ext.dependencies['androidx-constraintlayout']
-    implementation rootProject.ext.dependencies['androidx-lifecycle']
+    implementation rootProject.ext.dependencies['androidx-lifecycle-extensions']
+    annotationProcessor rootProject.ext.dependencies['androidx-lifecycle-compiler']
     // room
     implementation rootProject.ext.dependencies['androidx-room-rxjava2']
-    implementation rootProject.ext.dependencies['androidx-room-compiler']
+    annotationProcessor rootProject.ext.dependencies['androidx-room-compiler']
     // rx
     implementation rootProject.ext.dependencies['rxandroid']
     implementation rootProject.ext.dependencies['rxjava']
     // dagger2
     implementation rootProject.ext.dependencies['dagger']
-    implementation rootProject.ext.dependencies['dagger-compiler']
-    implementation rootProject.ext.dependencies['dagger-android-processor']
+    annotationProcessor rootProject.ext.dependencies['dagger-compiler']
+    annotationProcessor rootProject.ext.dependencies['dagger-android-processor']
     implementation rootProject.ext.dependencies['dagger-android-support']
     // test
     testImplementation rootProject.ext.dependencies['junit']

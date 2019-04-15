@@ -18,7 +18,8 @@ ext {
             "androidx-constraintlayout"   : "androidx.constraintlayout:constraintlayout:2.0.0-alpha3",
             "androidx-test-runner"        : "androidx.test:runner:1.1.1",
             "androidx-test-espresso"      : "androidx.test.espresso:espresso-core:3.1.1",
-            "androidx-lifecycle"          : "androidx.lifecycle:lifecycle-extensions:2.0.0",
+            "androidx-lifecycle-extensions" : "androidx.lifecycle:lifecycle-extensions:2.0.0",
+            "androidx-lifecycle-compiler" : "androidx.lifecycle:lifecycle-compiler:2.0.0",
             "androidx-room-rxjava2"       : "androidx.room:room-rxjava2:2.0.0",
             "androidx-room-compiler"      : "androidx.room:room-compiler:2.0.0",
 
@@ -27,6 +28,9 @@ ext {
             "dagger-compiler"             : "com.google.dagger:dagger-compiler:2.16",
             "dagger-android-processor"    : "com.google.dagger:dagger-android-processor:2.16",
             "dagger-android-support"      : "com.google.dagger:dagger-android-support:2.16",
+
+            //font
+            "calligraphy"                 :"uk.co.chrisjenx:calligraphy:2.2.0",
 
             //junit
             "junit"                       : "junit:junit:4.12",
